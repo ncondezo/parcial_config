@@ -43,8 +43,3 @@ management:
          exposure:
             include: gateway
 
-spring:
-  cloud:
-    config:
-      name: security
-      uri: https://github.com/ncondezo/parcial_config
