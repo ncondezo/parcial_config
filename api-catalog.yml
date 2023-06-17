@@ -3,6 +3,9 @@ server:
 spring:
   application:
     name: api-catalog
+  zipkin:
+    baseUrl: http://localhost:9411/
+    enabled: true
   mongodb:
     embedded:
       version: 4.0.2
