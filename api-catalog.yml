@@ -16,8 +16,8 @@ spring:
       version: 4.0.2
   data:
     mongodb:
-      database: test
-      port: 27017
+      database: testCatalog
+      port: 27020
       
 resilience4j.retry:
   instances:
