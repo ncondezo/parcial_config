@@ -6,7 +6,7 @@ spring:
   rabbitmq:
     username: guest
     password: guest
-    host: localhost
+    host: mongo-container-1
     port: 5672
   zipkin:
     baseUrl: http://localhost:9411/
