@@ -7,7 +7,7 @@ spring:
   rabbitmq:
     username: guest
     password: guest
-    host: mongo-container-2
+    host: localhost
     port: 5672
   zipkin:
     baseUrl: http://localhost:9411/
@@ -18,7 +18,7 @@ spring:
       password: pwd-serie-mongo
       database: series-mongo
       port: 27019
-      host: localhost
+      host: mongo-container-2
   jpa:
     hibernate.ddl-auto: update
     generate-ddl: true
