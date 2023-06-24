@@ -14,12 +14,8 @@ spring:
   
   data:
     mongodb:
-
-      username: usr-catalog-mongo
-      password: pwd-catalog-mongo
-      database: catalog-mongo
-      port: 27018
-      host: mongo-container-1
+     uri: mongodb://usr-catalog-mongo:pwd-catalog-mongo@localhost:27018
+     database: catalog-mongo
   jpa:
     hibernate.ddl-auto: update
     generate-ddl: true
