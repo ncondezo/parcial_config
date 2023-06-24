@@ -17,6 +17,7 @@ spring:
 
       username: usr-catalog-mongo
       password: pwd-catalog-mongo
+      database: catalog-mongo
       port: 27018
       host: localhost
   jpa:

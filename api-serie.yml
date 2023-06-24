@@ -16,6 +16,7 @@ spring:
     mongodb:
       username: usr-serie-mongo
       password: pwd-serie-mongo
+      database: series-mongo
       port: 27019
       host: localhost
   jpa:
