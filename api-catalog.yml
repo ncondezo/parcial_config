@@ -22,8 +22,7 @@ spring:
     show-sql: true
 
   
->>>>>>> 62a071b1c7902e290671a2e79c93fcacf119b327
-      
+
 resilience4j.retry:
   instances:
     retryMovieSearch:
